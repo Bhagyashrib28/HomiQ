@@ -22,3 +22,33 @@ Then open the Vite URL shown in the terminal, usually http://localhost:5173.
 ## Backend integration later
 
 Replace mock data with API calls in a future `src/services/api.ts` layer. The intended backend architecture can use your planned Django/NestJS/FastAPI services without changing the main UI structure.
+
+Structure 
+homiq-frontend/
+│
+├── package.json
+├── index.html
+│
+├── public/
+│   └── images/
+│
+└── src/
+    │
+    ├── main.tsx
+    ├── App.tsx
+    ├── styles.css
+    │
+    ├── components/
+    │   ├── Header.tsx
+    │   ├── Footer.tsx
+    │   ├── PropertyCard.tsx
+    │   ├── Badge.tsx
+    │   └── SectionTitle.tsx
+    │
+    └── pages/
+        ├── Home.tsx
+        ├── Properties.tsx
+        ├── PropertyDetails.tsx
+        ├── Login.tsx
+        ├── Signup.tsx
+        └── VirtualTour.tsx
